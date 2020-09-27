@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { AiFillCamera } from "react-icons/ai";
 import { CgSwiss } from "react-icons/cg";
-import { GiCrocJaws, GiHummingbird } from "react-icons/gi";
+import { GiHummingbird, GiSwamp } from "react-icons/gi";
 import Title from './Title';
 
 export default class About extends Component { 
@@ -19,12 +19,12 @@ export default class About extends Component {
         info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        icon:<GiHummingbird />,
+        icon:<GiSwamp />,
         title: "Louisiana",
         info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       {
-        icon:<GiCrocJaws/>,
+        icon:<GiHummingbird/>,
         title: "Wildlife",
         info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },

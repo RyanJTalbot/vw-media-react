@@ -208,6 +208,25 @@ h6 {
     font-size: 4rem;
   }
 }
+
+.galleryHero {
+  display: flex;
+  background: rgba(0, 0, 0, 0.5);
+  color: var(--mainWhite);
+  padding: 2rem 1rem;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+}
+.galleryHero .div {
+  width: 10rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
+
 /* End of Banner */
 /* Title */
 .section-title {
@@ -511,3 +530,8 @@ h6 {
   }
 }
 /* end of rooms fitler*/
+
+.footer {
+  text-align: center;
+  margin: 20px;
+}

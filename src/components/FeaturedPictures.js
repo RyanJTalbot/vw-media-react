@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { PictureContext } from '../context';
-import Loading from './Loading';
 import Pictures from './Pictures';
 
 export default class FeaturedPictures extends Component {
@@ -13,7 +11,6 @@ export default class FeaturedPictures extends Component {
       <div>
         featured Pictures
         <Pictures />
-        <Loading />
       </div>
     )
   }

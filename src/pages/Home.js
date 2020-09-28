@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 import Banner from '../components/Banner';
 import {Link} from 'react-router-dom';
 import About from '../components/About';
-import FeaturedPictures from '../components/FeaturedPictures';
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
         </Banner>
       </Hero>
       <About />
-      <FeaturedPictures />
+      <Footer />
     </>
   )
 }

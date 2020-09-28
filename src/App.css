@@ -113,14 +113,14 @@ h6 {
 }
 .nav-links {
   height: 0;
-  overflow: hidden;
+  overflow: auto;
   transition: var(--mainTransition);
   list-style-type: none;
 }
 .nav-links a {
   display: block;
   text-decoration: none;
-  padding: 1rem 0;
+  padding: 0.4rem 0;
   color: var(--mainBlack);
   transition: var(--mainTransition);
   text-align: center;
@@ -211,7 +211,7 @@ h6 {
 
 .galleryHero {
   display: flex;
-  background: rgba(0, 0, 0, 0.5);
+  background: #b09b7c;
   color: var(--mainWhite);
   padding: 2rem 1rem;
   margin-top: 10px;

@@ -11,22 +11,22 @@ export default class About extends Component {
       {
         icon:<AiFillCamera/>,
         title: "Photography",
-        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        info: "Originally from Switzerland, I started to seriously explore photography after moving to Louisiana in 2016."
       },
       {
         icon:<CgSwiss/>,
         title: "Switzerland",
-        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        info: "I'm originally from Lausanne, Switzerland and currently living in Louisiana."
       },
       {
         icon:<GiSwamp />,
         title: "Louisiana",
-        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        info: "Currently focusing my photography in south Louisiana wildlife."
       },
       {
         icon:<GiHummingbird/>,
         title: "Wildlife",
-        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        info: "If you'd like to see more checkout my instagram and don't forget to follow me for the latest!"
       },
     ]
   };

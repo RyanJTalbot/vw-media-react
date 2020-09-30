@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { FaInstagramSquare } from "react-icons/fa";
 
 export default function GalleryHero({children, hero}) {
   return (
@@ -7,6 +8,7 @@ export default function GalleryHero({children, hero}) {
         <div>
           VW-Media.com
         </div>
+        <FaInstagramSquare className="insta"/>
       </h1>
     </header>
   )

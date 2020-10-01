@@ -1,0 +1,7 @@
+name = "vw-media-react"
+type = "webpack"
+account_id = "76f2354045f640126ffc308d19df5471"
+workers_dev = true
+route = "vw-media.com"
+zone_id = "cb1fc9d316b7b4bc23ede7eb3e6f543a"
+

@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaInstagramSquare } from "react-icons/fa";
+// import {Link} from "react-router-dom";
 
 export default function GalleryHero({children, hero}) {
   return (
@@ -8,7 +9,10 @@ export default function GalleryHero({children, hero}) {
         <div>
           VW-Media.com
         </div>
-        <FaInstagramSquare className="insta"/>
+
+        {/* <Link to="https://www.instagram.com/virginielouisiana"> */}
+          <FaInstagramSquare className="insta"/>
+        {/* </Link> */}
       </h1>
     </header>
   )

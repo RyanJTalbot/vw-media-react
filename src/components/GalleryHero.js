@@ -13,7 +13,7 @@ export default function GalleryHero({ hero}) {
 //         <Link to="https://www.instagram.com/virginielouisiana">
 //           <FaInstagramSquare className="insta"/>
 //         </Link>
-           <a href="https://www.instagram.com/virginielouisiana" >
+           <a href="https://www.instagram.com/virginielouisiana" el="noopener noreferrer">
             <FaInstagramSquare className="insta"/>
            </a>
       </h1>

@@ -10,10 +10,10 @@ export default function GalleryHero({ hero}) {
           VW-Media.com
         </div>
 
-//         <Link to="https://www.instagram.com/virginielouisiana">
-//           <FaInstagramSquare className="insta"/>
-//         </Link>
-           <a href="https://www.instagram.com/virginielouisiana" el="noopener noreferrer">
+         {/* <Link to="https://www.instagram.com/virginielouisiana">
+           <FaInstagramSquare className="insta"/>
+        </Link> */}
+           <a href="https://www.instagram.com/virginielouisiana">
             <FaInstagramSquare className="insta"/>
            </a>
       </h1>

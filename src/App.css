@@ -168,6 +168,13 @@ h6 {
   background-image: url("./images/cover.jpg");
   min-height: 60vh;
 }
+
+@media only screen and (max-width: 600px) {
+  .roomsHero {
+    background-image: url("./images/cover.jpg");
+    object-fit: cover;
+  }
+}
 /* End of Hero */
 /* Banner */
 .banner {
@@ -225,6 +232,17 @@ h6 {
   height: 5px;
   background: var(--primaryColor);
   margin: 1.7rem auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .galleryHero div {
+    display: flex;
+    text-align: center;
+    font-size: 22px;
+  }
+  .galleryHero a {
+    font-size: 40px;
+  }
 }
 
 /* End of Banner */

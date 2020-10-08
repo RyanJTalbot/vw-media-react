@@ -34,7 +34,7 @@ export default class About extends Component {
   render() {
     return (
       <section className="services">
-        <Title title='services' />
+        <Title title='About Me' />
         <div className='services-center'>
           {this.state.services.map((item, index) => {
             return (

@@ -105,6 +105,12 @@ h6 {
   text-align: center;
 }
 
+.footerSpan {
+  margin-left: 5px;
+  font-size: 28px;
+  color: #52b497;
+}
+
 .nav-btn {
   background: transparent;
   border: none;

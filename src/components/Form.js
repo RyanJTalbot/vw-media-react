@@ -1,44 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-class Form extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      value: 'Sorry This isn\'t functional yet. '
-    };
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleChange(event) {
-    this.setState({value: event.target.value});
-  }
-
-  handleSubmit(event) {
-    alert('An essay was submitted: ' + this.state.value);
-    event.preventDefault();
-  }
-
+export default class Form extends Component {
   render() {
     return (
-      <>
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            Message:
-            <textarea value={this.state.value} onChange={this.handleChange} />
-          </label>
-          <div>
-            Email Me: email@email.com
-          </div>
-        </form>
-        <input type="submit" value="Submit" />
-        <h4>
-          Add Instagram Logo/Link
-        </h4>
-      </>
-    );
+      <div className="form">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOsuqLDk9_6JJWwL5ttUra47Pad_ZSQjEOdAWXWCz0W2h2Mw/viewform?embedded=true" width="640" height="673" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+    )
   }
 }
-
-export default Form;

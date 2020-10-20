@@ -101,6 +101,10 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
+.form {
+  text-align: center;
+}
+
 .nav-btn {
   background: transparent;
   border: none;
